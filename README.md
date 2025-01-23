@@ -1,2 +1,3 @@
 # Botany563
-Botany563 Course on Phylogenetics
+Botany 563 Course on Phylogenetics
+Author Aviva Englander
