@@ -18,3 +18,5 @@ T_coffee generated the following files:
 streptococcussuis.aln
 streptococcussuis.dnd
 streptococcussuis.html
+
+t_coffee is in a category of alignment methods called global multiple sequence alignment(MSA). It samples pairwise suboptimal alignments to assess the reliability of MSAs. A benefit of this method is that it can be used with the complete alignments of real sequences. Because it relies on statistical measures instead of comparing to expert information, it is hard to assess it's accuracy.
