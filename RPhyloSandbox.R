@@ -17,4 +17,6 @@ parsimony(tre.ini, dna2)
 
 tre.pars <- optim.parsimony(tre.ini, dna2)
 
+plot(tre.ini, cex=0.6)
+
 plot(tre.pars, cex=0.6)

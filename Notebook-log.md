@@ -27,3 +27,4 @@ Used https://sequenceconversion.bugaco.com/converter/biology/sequences/clustal_t
 This took streptococcussuis-aligned-clustalw.fasta and output aligned_clustalw.fasta
 Also took streptococcussuis.aln and output aligned_Tcoffee.fasta
 
+RPhyloSandbox.R infers a parsimony based and distance based tree.
