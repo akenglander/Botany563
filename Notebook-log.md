@@ -20,3 +20,10 @@ streptococcussuis.dnd
 streptococcussuis.html
 
 t_coffee is in a category of alignment methods called global multiple sequence alignment(MSA). It samples pairwise suboptimal alignments to assess the reliability of MSAs. A benefit of this method is that it can be used with the complete alignments of real sequences. Because it relies on statistical measures instead of comparing to expert information, it is hard to assess it's accuracy.
+
+# Converted alignment files to fasta file
+Used https://sequenceconversion.bugaco.com/converter/biology/sequences/clustal_to_fasta.php
+
+This took streptococcussuis-aligned-clustalw.fasta and output aligned_clustalw.fasta
+Also took streptococcussuis.aln and output aligned_Tcoffee.fasta
+
