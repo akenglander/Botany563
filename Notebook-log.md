@@ -49,6 +49,8 @@ Analysis results written to:
   Likelihood distances:          aligned_Tcoffee.fasta.mldist
   Screen log file:               aligned_Tcoffee.fasta.log
   
+Note IQ-tree is really nice because it does not require a tree as an input. It also uses stochastic hill climbing methods to try to escape local optima. It allows for reversible and nonreversible models and has a built in algorithm to account for missing data. However for optimal results it assumes the user will run it multiple times to get best results with the stochastic element. It uses a lot of RAM, although it tries to make up for that with it's memory saving mode and because of the stochastic element it can have poor reproducibility.
+
   Then I will run raxML on my alignments with the trees IQ-Tree suggests
   
 
