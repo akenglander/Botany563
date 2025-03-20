@@ -1,0 +1,215 @@
+IQ-TREE 2.1.4-beta COVID-edition built Jun 24 2021
+
+Input file name: aligned_Tcoffee.fasta
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 196982
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 35 sequences with 1569 nucleotide sites
+Number of constant sites: 1437 (= 91.587% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1437 (= 91.587% of all sites)
+Number of parsimony informative sites: 81
+Number of distinct site patterns: 183
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TVM+F+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TVM+F+I+G4        -3726.585    7605.171 +     0.35    7613.015 +    0.374    8012.393 +    0.377
+TPM3+F+I+G4       -3734.284    7616.568 -  0.00117    7623.998 -  0.00154    8013.074 +    0.269
+TPM3u+F+I+G4      -3734.284    7616.568 -  0.00117    7623.998 -  0.00154    8013.074 +    0.269
+GTR+F+I+G4        -3724.973    7603.946 +    0.646    7612.002 +     0.62    8016.527 -   0.0478
+TIM3+F+I+G4       -3732.687    7615.373 -  0.00213    7623.009 -  0.00253    8017.238 -   0.0335
+TVMe+I+G4         -3742.363    7630.726 - 9.88e-07    7637.953 - 1.44e-06    8021.874 -   0.0033
+TIM3e+I+G4        -3747.467    7638.934 - 1.63e-08    7645.960 - 2.62e-08    8024.724 - 0.000793
+SYM+I+G4          -3742.351    7632.703 - 3.68e-07    7640.132 - 4.83e-07    8029.209 - 8.42e-05
+TPM2u+F+I+G4      -3743.279    7634.557 - 1.45e-07    7641.987 - 1.91e-07    8031.064 - 3.33e-05
+TPM2+F+I+G4       -3743.279    7634.557 - 1.45e-07    7641.987 - 1.91e-07    8031.064 - 3.33e-05
+TIM2+F+I+G4       -3741.425    7632.849 - 3.42e-07    7640.485 - 4.05e-07    8034.714 - 5.37e-06
+HKY+F+I+G4        -3749.735    7645.471 - 6.21e-10    7652.697 - 9.03e-10    8036.619 - 2.07e-06
+K2P+I+G4          -3761.552    7663.103 - 9.21e-14    7669.739 -  1.8e-13    8038.177 - 9.51e-07
+K3Pu+F+I+G4       -3747.076    7642.151 - 3.26e-09    7649.581 - 4.29e-09    8038.657 - 7.48e-07
+K3P+I+G4          -3758.849    7659.699 - 5.05e-13    7666.528 - 8.96e-13    8040.130 - 3.58e-07
+TN+F+I+G4         -3747.985    7643.969 - 1.32e-09    7651.399 - 1.73e-09    8040.476 - 3.01e-07
+TIM+F+I+G4        -3745.268    7640.535 - 7.32e-09    7648.171 - 8.69e-09    8042.400 - 1.15e-07
+F81+F+I+G4        -3756.445    7656.890 - 2.06e-12    7663.917 - 3.31e-12    8042.680 -    1e-07
+JC+I+G4           -3768.410    7674.819 - 2.63e-16    7681.264 - 5.66e-16    8044.535 - 3.96e-08
+TIM2e+I+G4        -3757.719    7659.437 - 5.76e-13    7666.464 - 9.26e-13    8045.227 -  2.8e-08
+TNe+I+G4          -3761.534    7665.067 - 3.45e-14    7671.897 - 6.12e-14    8045.499 - 2.44e-08
+TIMe+I+G4         -3758.830    7661.660 - 1.89e-13    7668.687 - 3.05e-13    8047.450 - 9.21e-09
+GTR+F+R2          -3744.339    7642.677 - 2.51e-09    7650.734 - 2.41e-09    8055.258 - 1.86e-10
+GTR+F+R3          -3741.323    7640.646 - 6.93e-09    7649.135 - 5.36e-09    8063.943 - 2.41e-12
+GTR+F+I           -3763.829    7679.658 - 2.34e-17    7687.502 -  2.5e-17    8086.881 - 2.52e-17
+GTR+F+G4          -3833.496    7818.992 -  1.3e-47    7826.837 - 1.39e-47    8226.215 -  1.4e-47
+GTR+F             -4045.302    8240.604 - 3.64e-139    8248.240 - 4.32e-139    8642.469 - 5.72e-138
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TVM+F+I+G4
+
+Rate parameter R:
+
+  A-C: 0.6167
+  A-G: 2.2921
+  A-T: 3.6402
+  C-G: 0.3754
+  C-T: 2.2921
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.254
+  pi(C) = 0.2249
+  pi(G) = 0.3051
+  pi(T) = 0.216
+
+Rate matrix Q:
+
+  A    -1.319    0.1126    0.5681    0.6386
+  C    0.1272   -0.6224   0.09305    0.4021
+  G    0.4729   0.06858   -0.7169    0.1754
+  T    0.7511    0.4187    0.2478    -1.418
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.8652
+Gamma shape alpha: 0.5115
+
+ Category  Relative_rate  Proportion
+  0         0              0.8652
+  1         0.2636         0.0337
+  2         1.924          0.0337
+  3         6.145          0.0337
+  4         21.34          0.0337
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -3701.1273 (s.e. 150.3186)
+Unconstrained log-likelihood (without tree): -3680.0794
+Number of free parameters (#branches + #model parameters): 76
+Akaike information criterion (AIC) score: 7554.2546
+Corrected Akaike information criterion (AICc) score: 7562.0991
+Bayesian information criterion (BIC) score: 7961.4774
+
+Total tree length (sum of branch lengths): 0.4501
+Sum of internal branch lengths: 0.1581 (35.1317% of tree length)
+
+WARNING: 4 near-zero internal branches (<0.0006) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'AF009475.1' is drawn at root
+
++--AF009475.1
+|
+|                                +--AF009476.1
+|                             +--|
+|                             |  +--AF009478.1
+|                          +**|
+|                          |  |  +--AF009488.1
+|                          |  +--|
+|                          |     +--AF009496.1
+|                       +--|
+|                       |  +--AF009500.1
+|                    +--|
+|                    |  |              +--AF009479.1
+|                    |  |           +--|
+|                    |  |           |  +--AF009485.1
+|                    |  |        +--|
+|                    |  |        |  +**AF009481.1
+|                    |  |     +--|
+|                    |  |     |  +**AF009504.1
+|                    |  |  +**|
+|                    |  |  |  |     +--AF009480.1
+|                    |  |  |  |  +--|
+|                    |  |  |  |  |  +--AF009483.1
+|                    |  |  |  +**|
+|                    |  |  |     |     +--AF009482.1
+|                    |  |  |     |  +--|
+|                    |  |  |     |  |  +--AF009484.1
+|                    |  |  |     +--|
+|                    |  |  |        +--AF009486.1
+|                    |  +--|
+|                    |     |  +--AF009498.1
+|                    |     +--|
+|                    |        +**AF009506.1
+|                 +--|
+|                 |  |              +**AF009495.1
+|                 |  |           +--|
+|                 |  |           |  +--AF009501.1
+|                 |  |        +--|
+|                 |  |        |  |                       +-----AF009507.1
+|                 |  |        |  +-----------------------|
+|                 |  |        |                          +**AF009509.1
+|                 |  |     +--|
+|                 |  |     |  +--AF009497.1
+|                 |  |  +--|
+|                 |  |  |  +-------------------------------------------------AF009508.1
+|                 |  +--|
+|                 |     +--AF009505.1
+|              +--|
+|              |  |        +--AF009490.1
+|              |  |     +--|
+|              |  |     |  +--AF009499.1
+|              |  |  +--|
+|              |  |  |  +**AF009491.1
+|              |  +--|
+|              |     +--AF009492.1
+|           +**|
+|           |  |  +--AF009494.1
+|           |  +--|
+|           |     +--AF009502.1
+|        +--|
+|        |  +**AF009493.1
+|     +--|
+|     |  +--AF009503.1
+|  +--|
+|  |  +**AF009487.1
++--|
+|  +**AF009477.1
+|
++--AF009489.1
+
+Tree in newick format:
+
+(AF009475.1:0.0131895936,(((((((((((AF009476.1:0.0023537737,AF009478.1:0.0031566737):0.0044303938,(AF009488.1:0.0027617384,AF009496.1:0.0020289168):0.0022473617):0.0000025170,AF009500.1:0.0010529237):0.0011958058,(((((AF009479.1:0.0013392436,AF009485.1:0.0014092675):0.0021764864,AF009481.1:0.0000023967):0.0009860750,AF009504.1:0.0000020603):0.0020438093,((AF009480.1:0.0008000079,AF009483.1:0.0038866074):0.0011967067,((AF009482.1:0.0053272531,AF009484.1:0.0079082133):0.0056072529,AF009486.1:0.0032359567):0.0007659898):0.0000020720):0.0000020960,(AF009498.1:0.0043782459,AF009506.1:0.0000024422):0.0031408501):0.0028264681):0.0008716696,(((((AF009495.1:0.0000021399,AF009501.1:0.0010500075):0.0020621293,(AF009507.1:0.0231417314,AF009509.1:0.0005539502):0.0873097004):0.0021331902,AF009497.1:0.0129138846):0.0011446218,AF009508.1:0.1812942401):0.0114777713,AF009505.1:0.0006455402):0.0133850124):0.0008085870,(((AF009490.1:0.0011317554,AF009499.1:0.0056817409):0.0010393460,AF009491.1:0.0000025808):0.0021251394,AF009492.1:0.0010056067):0.0007772542):0.0015304596,(AF009494.1:0.0010473742,AF009502.1:0.0021432459):0.0010582834):0.0000023151,AF009493.1:0.0000023206):0.0009127161,AF009503.1:0.0066441642):0.0012607730,AF009487.1:0.0000023728):0.0023446114,AF009477.1:0.0005837471):0.0012703877,AF009489.1:0.0013096603);
+
+TIME STAMP
+----------
+
+Date and time: Thu Mar 13 13:48:29 2025
+Total CPU time used: 10.6954 seconds (0h:0m:10s)
+Total wall-clock time used: 10.5604 seconds (0h:0m:10s)
+

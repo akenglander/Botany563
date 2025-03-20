@@ -28,3 +28,28 @@ This took streptococcussuis-aligned-clustalw.fasta and output aligned_clustalw.f
 Also took streptococcussuis.aln and output aligned_Tcoffee.fasta
 
 RPhyloSandbox.R infers a parsimony based and distance based tree.
+
+# Ran Maximum Likelihood Tree Softwares
+
+First I ran IQtree on my two alignments
+
+iqtree -s streptococcussuis-aligned-clustalw.fasta
+
+Analysis results written to: 
+  IQ-TREE report:                streptococcussuis-aligned-clustalw.fasta.iqtree
+  Maximum-likelihood tree:       streptococcussuis-aligned-clustalw.fasta.treefile
+  Likelihood distances:          streptococcussuis-aligned-clustalw.fasta.mldist
+  Screen log file:               streptococcussuis-aligned-clustalw.fasta.log
+
+iqtree -s aligned_Tcoffee.fasta
+
+Analysis results written to: 
+  IQ-TREE report:                aligned_Tcoffee.fasta.iqtree
+  Maximum-likelihood tree:       aligned_Tcoffee.fasta.treefile
+  Likelihood distances:          aligned_Tcoffee.fasta.mldist
+  Screen log file:               aligned_Tcoffee.fasta.log
+  
+  Then I will run raxML on my alignments with the trees IQ-Tree suggests
+  
+
+  
