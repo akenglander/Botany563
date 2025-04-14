@@ -53,5 +53,24 @@ Note IQ-tree is really nice because it does not require a tree as an input. It a
 
   Then I will run raxML on my alignments with the trees IQ-Tree suggests
   
+# Bayesian Inference
 
-  
+I downloaded Mr Bayes. Then I converted my clustal file to nexus file which were named:
+"streptococcussuis-aligned-clustalw.fasta" and "streptococcussclustal.nexus"
+
+I used the converter at https://sequenceconversion.bugaco.com/converter/biology/sequences/index.html
+I used input "clustal" output "nexus"
+
+I created Mr Bayes command file MrB1.txt
+
+Then I concatenated it to the nexus file with this command
+cat streptococcussclustal.nexus MrB1.txt > streptococcussclustal_mb1.nexus
+I changed the outgroup in the Mr Bayes commands at the end of the nexus file
+
+Then I used this command to run it
+mb streptococcussclustal_mb1.nexus
+
+The output files were named streptococcussclustal_mb1.nexus.**
+
+
+
