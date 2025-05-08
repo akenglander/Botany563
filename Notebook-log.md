@@ -98,7 +98,7 @@ I used MLTrees.R and PlottingTrees.R to generate my plots
 
 I updated my folder structure
 
-Clustal has all of the final analysis used in plots
+Clustal and Clustal_MrBayes has all of the final analysis used in plots
 The other folders contain the same results, but with sequence numbers instead of 
 serotype numbers
 
