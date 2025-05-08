@@ -72,5 +72,36 @@ mb streptococcussclustal_mb1.nexus
 
 The output files were named streptococcussclustal_mb1.nexus.**
 
+# Bucky
 
+Downloaded precompiled .tar file for bucky-1.4.4 folder
 
+Could not get Bucky to work on my data :(
+kept getting segmentation fault error
+
+# Some Plot Information
+
+I reran my analysis with the file ClustalW/aligned_clustalw_rename.fasta
+I just renamed data to match with figures in the original paper
+This just means using serotypes instead of seq numbers
+
+iqtree -s aligned_clustalw_rename.fasta
+
+I also reran Mr Bayes with a nexus file where I updated names to serotypes instead of seq numbers
+
+Then I used this command to run it
+mb streptococcussclustal_mb1_rename.nexus
+
+I used MLTrees.R and PlottingTrees.R to generate my plots
+
+# My folder structure
+
+I updated my folder structure
+
+Clustal has all of the final analysis used in plots
+The other folders contain the same results, but with sequence numbers instead of 
+serotype numbers
+
+I also have tcoffee analysis but I didn't include it in the paper
+
+The other folders are named according to the software used on the original data

@@ -4,10 +4,10 @@ library(phangorn)
 
 # uncomment the alignement you want to run parsimony on
 # ClustalW alignment
-# dna <- fasta2DNAbin(file="/Users/akenglander/Documents/GitHub/Botany563/aligned_clustalw.fasta")
+ dna <- fasta2DNAbin(file="/Users/akenglander/Documents/GitHub/Botany563/ClustalW/aligned_clustalw_rename.fasta")
 
 # Tcoffee alignment
-# dna <- fasta2DNAbin(file="/Users/akenglander/Documents/GitHub/Botany563/aligned_Tcoffee.fasta")
+# dna <- fasta2DNAbin(file="/Users/akenglander/Documents/GitHub/Botany563/TCoffee/aligned_Tcoffee.fasta")
 
 dna2 <- as.phyDat(dna)
 
